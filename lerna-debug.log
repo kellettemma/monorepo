@@ -1,0 +1,6 @@
+42 error Error: Command failed with exit code 128: git push --follow-tags --no-verify --atomic origin master
+42 error remote: Support for password authentication was removed on August 13, 2021.
+42 error remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+42 error fatal: Authentication failed for 'https://github.com/kellettemma/monorepo.git/'
+42 error     at makeError (/usr/local/lib/node_modules/lerna/node_modules/execa/lib/error.js:60:11)
+42 error     at handlePromise (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:118:26)
