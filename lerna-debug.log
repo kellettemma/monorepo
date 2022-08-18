@@ -7,7 +7,7 @@
 1 notice cli v5.4.3
 2 verbose rootPath /Users/e105573/Documents/monorepo
 3 info versioning independent
-4 verbose session c992e6466865f90a
+4 verbose session 7c0d665965718ba1
 5 verbose user-agent lerna/5.4.3/node@v14.18.2+x64 (darwin)
 6 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '5.4.3' }
 7 verbose rootPath /Users/e105573/Documents/monorepo
@@ -20,46 +20,45 @@
 14 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 0
 15 silly hasTags
 16 verbose hasTags true
-17 silly git-describe.sync "pkg1@1.0.5-1-g6f12f9a" => {"lastTagName":"pkg1@1.0.5","lastVersion":"1.0.5","refCount":"1","sha":"6f12f9a","isDirty":false}
-18 info Looking for changed packages since pkg1@1.0.5
+17 silly git-describe.sync "pkg1@1.0.6-1-gff9cd28" => {"lastTagName":"pkg1@1.0.6","lastVersion":"1.0.6","refCount":"1","sha":"ff9cd28","isDirty":false}
+18 info Looking for changed packages since pkg1@1.0.6
 19 silly checking diff packages/pkg1
-20 silly found diff in packages/pkg1/LICENSE.md
+20 silly found diff in packages/pkg1/index.html
 20 silly found diff in packages/pkg1/package.json
-21 verbose filtered diff [ 'packages/pkg1/LICENSE.md', 'packages/pkg1/package.json' ]
+21 verbose filtered diff [ 'packages/pkg1/index.html', 'packages/pkg1/package.json' ]
 22 silly checking diff packages/pkg2
-23 silly found diff in packages/pkg2/LICENSE.md
 23 silly found diff in packages/pkg2/package.json
-24 verbose filtered diff [ 'packages/pkg2/LICENSE.md', 'packages/pkg2/package.json' ]
+24 verbose filtered diff [ 'packages/pkg2/package.json' ]
 25 verbose updated pkg1
 26 verbose updated pkg2
-27 verbose git-describe undefined => "pkg1@1.0.5-1-g6f12f9a"
-28 silly git-describe parsed => {"lastTagName":"pkg1@1.0.5","lastVersion":"1.0.5","refCount":"1","sha":"6f12f9a","isDirty":false}
+27 verbose git-describe undefined => "pkg1@1.0.6-1-gff9cd28"
+28 silly git-describe parsed => {"lastTagName":"pkg1@1.0.6","lastVersion":"1.0.6","refCount":"1","sha":"ff9cd28","isDirty":false}
 29 info execute Skipping releases
 30 silly lifecycle No script for "preversion" in "monorepo", continuing
 31 silly lifecycle No script for "preversion" in "pkg1", continuing
 32 silly lifecycle No script for "preversion" in "pkg2", continuing
-33 silly lifecycle No script for "version" in "pkg2", continuing
-34 silly lifecycle No script for "version" in "pkg1", continuing
+33 silly lifecycle No script for "version" in "pkg1", continuing
+34 silly lifecycle No script for "version" in "pkg2", continuing
 35 verbose version Updating root package-lock.json
 36 silly lifecycle No script for "version" in "monorepo", continuing
 37 silly gitAdd [
-37 silly gitAdd   'packages/pkg2/package.json',
 37 silly gitAdd   'packages/pkg1/package.json',
+37 silly gitAdd   'packages/pkg2/package.json',
 37 silly gitAdd   'package-lock.json'
 37 silly gitAdd ]
 38 silly gitCommit Publish
 38 silly gitCommit
-38 silly gitCommit  - pkg1@1.0.6
-38 silly gitCommit  - pkg2@1.0.6
+38 silly gitCommit  - pkg1@1.0.7
+38 silly gitCommit  - pkg2@1.0.7
 39 verbose git [
 39 verbose git   'commit',
 39 verbose git   '-F',
-39 verbose git   '/private/var/folders/7g/185bb0qj0jq7jz8bvtb4nx88xw50nd/T/c5485b97-855a-48c2-9a76-bbe19c47697d/lerna-commit.txt'
+39 verbose git   '/private/var/folders/7g/185bb0qj0jq7jz8bvtb4nx88xw50nd/T/5f239da5-c1c9-4374-955f-2642bf45cd13/lerna-commit.txt'
 39 verbose git ]
-40 silly gitTag pkg1@1.0.6
-41 verbose git [ 'tag', 'pkg1@1.0.6', '-m', 'pkg1@1.0.6' ]
-42 silly gitTag pkg2@1.0.6
-43 verbose git [ 'tag', 'pkg2@1.0.6', '-m', 'pkg2@1.0.6' ]
+40 silly gitTag pkg1@1.0.7
+41 verbose git [ 'tag', 'pkg1@1.0.7', '-m', 'pkg1@1.0.7' ]
+42 silly gitTag pkg2@1.0.7
+43 verbose git [ 'tag', 'pkg2@1.0.7', '-m', 'pkg2@1.0.7' ]
 44 silly lifecycle No script for "postversion" in "pkg1", continuing
 45 silly lifecycle No script for "postversion" in "pkg2", continuing
 46 silly lifecycle No script for "postversion" in "monorepo", continuing
@@ -69,7 +68,7 @@
 50 notice Skipping all user and access validation due to third-party registry
 51 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
 52 silly getCurrentSHA
-53 verbose getCurrentSHA fb057b3a49e1cddf30d3d335f736c898296578a6
+53 verbose getCurrentSHA 2e48f9564c78f28ec18923a8bc33889b6fd3a778
 54 warn lifecycle Skipping root "prepublish" because it has already been called
 55 silly lifecycle No script for "prepare" in "monorepo", continuing
 56 silly lifecycle No script for "prepublishOnly" in "monorepo", continuing
@@ -84,14 +83,14 @@
 65 silly lifecycle No script for "prepublishOnly" in "pkg2", continuing
 66 silly lifecycle No script for "prepack" in "pkg1", continuing
 67 silly lifecycle No script for "prepack" in "pkg2", continuing
-68 silly lifecycle No script for "postpack" in "pkg1", continuing
-69 verbose packed packages/pkg1
-70 silly lifecycle No script for "postpack" in "pkg2", continuing
-71 verbose packed packages/pkg2
+68 silly lifecycle No script for "postpack" in "pkg2", continuing
+69 verbose packed packages/pkg2
+70 silly lifecycle No script for "postpack" in "pkg1", continuing
+71 verbose packed packages/pkg1
 72 silly lifecycle No script for "postpack" in "monorepo", continuing
 73 verbose publish pkg1
 74 verbose publish pkg2
-75 silly FetchError: request to https://npm.pkg.github.com/@kellettemma/pkg1 failed, reason: self signed certificate in certificate chain
+75 silly FetchError: request to https://npm.pkg.github.com/@kellettemma/pkg2 failed, reason: self signed certificate in certificate chain
 75 silly     at ClientRequest.<anonymous> (/Users/e105573/Documents/monorepo/node_modules/minipass-fetch/lib/index.js:130:14)
 75 silly     at ClientRequest.emit (events.js:400:28)
 75 silly     at TLSSocket.socketErrorListener (_http_client.js:475:9)
@@ -99,7 +98,7 @@
 75 silly     at emitErrorNT (internal/streams/destroy.js:106:8)
 75 silly     at emitErrorCloseNT (internal/streams/destroy.js:74:3)
 75 silly     at processTicksAndRejections (internal/process/task_queues.js:82:21)
-75 silly  FetchError: request to https://npm.pkg.github.com/@kellettemma/pkg1 failed, reason: self signed certificate in certificate chain
+75 silly  FetchError: request to https://npm.pkg.github.com/@kellettemma/pkg2 failed, reason: self signed certificate in certificate chain
 75 silly     at ClientRequest.<anonymous> (/Users/e105573/Documents/monorepo/node_modules/minipass-fetch/lib/index.js:130:14)
 75 silly     at ClientRequest.emit (events.js:400:28)
 75 silly     at TLSSocket.socketErrorListener (_http_client.js:475:9)
@@ -111,8 +110,8 @@
 75 silly   errno: 'SELF_SIGNED_CERT_IN_CHAIN',
 75 silly   type: 'system'
 75 silly }
-76 error SELF_SIGNED_CERT_IN_CHAIN request to https://npm.pkg.github.com/@kellettemma/pkg1 failed, reason: self signed certificate in certificate chain
-77 error FetchError: request to https://npm.pkg.github.com/@kellettemma/pkg1 failed, reason: self signed certificate in certificate chain
+76 error SELF_SIGNED_CERT_IN_CHAIN request to https://npm.pkg.github.com/@kellettemma/pkg2 failed, reason: self signed certificate in certificate chain
+77 error FetchError: request to https://npm.pkg.github.com/@kellettemma/pkg2 failed, reason: self signed certificate in certificate chain
 77 error     at ClientRequest.<anonymous> (/Users/e105573/Documents/monorepo/node_modules/minipass-fetch/lib/index.js:130:14)
 77 error     at ClientRequest.emit (events.js:400:28)
 77 error     at TLSSocket.socketErrorListener (_http_client.js:475:9)
