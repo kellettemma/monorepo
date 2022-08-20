@@ -1,6 +1,6 @@
 {
     "name": "pkg2",
-    "version": "1.0.11",
+    "version": "1.0.14",
     "description": "",
     "main": "index.js",
     "scripts": {
@@ -13,5 +13,5 @@
         "registry": "https://npm.pkg.github.com/@kellettemma"
     },
     "repository": "https://github.com/kellettemma/monorepo.git",
-    "gitHead": "153b6395107cfd04d4f11fdb8940bbbc13c46c66"
+    "gitHead": "10cb830b52cbf5f067defe674b130615cfba266d"
 }
