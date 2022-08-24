@@ -1,5 +1,5 @@
-42 error Error: Command failed with exit code 128: git push --follow-tags --no-verify --atomic origin master
-42 error remote: Invalid username or password.
-42 error fatal: Authentication failed for 'https://github.com/kellettemma/monorepo.git/'
-42 error     at makeError (/usr/local/lib/node_modules/lerna/node_modules/execa/lib/error.js:60:11)
-42 error     at handlePromise (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:118:26)
+49 error Error: Command failed with exit code 128: git push --follow-tags --no-verify --atomic origin master
+49 error remote: Invalid username or password.
+49 error fatal: Authentication failed for 'https://github.com/kellettemma/monorepo.git/'
+49 error     at makeError (/Users/e105573/Documents/monorepo/node_modules/execa/lib/error.js:60:11)
+49 error     at handlePromise (/Users/e105573/Documents/monorepo/node_modules/execa/index.js:118:26)
