@@ -9,7 +9,8 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/kellettemma/monorepo.git"
+        "url": "git+https://github.com/kellettemma/monorepo.git",
+        "directory": "packages"
     },
     "keywords": [],
     "author": "",
